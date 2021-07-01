@@ -43,7 +43,6 @@ ReactDOM.render(
   />,
   document.querySelector('#root'),
 );
-
 // import React from 'react';
 // import ReactDOM from 'react-dom';
 // import './index.css';
