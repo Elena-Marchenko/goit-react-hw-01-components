@@ -1,5 +1,5 @@
-import Profile from './Profile';
 import PropTypes from 'prop-types';
+import Profile from './Profile';
 
 export default function ProfileList({ items }) {
   return (
@@ -24,7 +24,7 @@ export default function ProfileList({ items }) {
 ProfileList.propTypes = {
   items: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
     }),
   ),
 };
