@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import defaultImage from './defaultPicture.png';
 import s from './Profile.module.css';
-console.log(defaultImage);
 
 export default function Profile(props) {
   const {

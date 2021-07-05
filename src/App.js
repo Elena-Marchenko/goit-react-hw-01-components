@@ -7,7 +7,6 @@ import friends from './components/friend-list/friends.json';
 import transactions from './components/transaction-history/transactions.json';
 import TransactionHistory from './components/transaction-history/TransactionsList';
 import s from './App.module.css';
-console.log(s);
 
 export default function App() {
   return (
