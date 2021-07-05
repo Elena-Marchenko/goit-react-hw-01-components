@@ -1,19 +1,20 @@
 import TransactionsItem from './TransactionsItem';
+import s from './Transactions.module.css';
 
 export default function TransactionHistory({ items }) {
   return (
-    <table className="transaction-history">
+    <table className={`${s.trHistory}`}>
       <thead>
-        <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
+        <tr className={`${s.trList}`}>
+          <th className={`${s.trItem}`}>Type</th>
+          <th className={`${s.trItem}`}>Amount</th>
+          <th className={`${s.trItem}`}>Currency</th>
         </tr>
       </thead>
 
       <tbody>
         {items.map(item => (
-          <tr key={item.id}>
+          <tr className={`${s.trBodyItem}`} key={item.id}>
             <TransactionsItem
               type={item.type}
               amount={item.amount}

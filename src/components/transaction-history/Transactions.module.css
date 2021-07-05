@@ -1,0 +1,30 @@
+.trHistory {
+  width: 600px;
+  text-align: center;
+  background-color: antiquewhite;
+  list-style-type: none;
+}
+
+.trList {
+  background-color: rgb(240, 129, 39);
+}
+
+.trItem {
+  font-size: 20px;
+  font-weight: 800;
+
+  padding: 10px;
+}
+
+.trBodyItem:nth-child(2n) {
+  background-color: rgb(241, 219, 163);
+}
+
+.type,
+.amount,
+.currency {
+  font-size: 20px;
+  font-weight: 400;
+
+  padding: 5px;
+}

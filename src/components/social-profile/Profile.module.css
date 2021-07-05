@@ -10,12 +10,17 @@ p {
   list-style-type: none;
 
   padding: 15px;
+  margin-bottom: 10px;
 }
 
 .avatar {
   width: 100px;
   height: 100px;
   margin-bottom: 5px;
+
+  border: 1px solid #a5a5a563;
+  box-shadow: 3px 4px 3px rgb(0 0 0 / 12%), 3px 4px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
 }
 
 .name {
@@ -37,12 +42,6 @@ p {
   margin-bottom: 5px;
 }
 
-/* .profile {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-} */
 .stats {
   list-style-type: none;
 
@@ -64,7 +63,11 @@ p {
   justify-content: center;
   flex-direction: column;
 
+  padding: 5px;
   width: 185px;
+  border: 1px solid #a5a5a563;
+  box-shadow: 3px 4px 3px rgb(0 0 0 / 12%), 3px 4px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
 }
 
 .description {
@@ -73,5 +76,9 @@ p {
   align-items: center;
   flex-direction: column;
 
+  padding: 5px;
   margin-bottom: 10px;
+  border: 1px solid #a5a5a563;
+  box-shadow: 3px 4px 3px rgb(0 0 0 / 12%), 3px 4px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
 }
