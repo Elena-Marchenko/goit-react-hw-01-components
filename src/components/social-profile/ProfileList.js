@@ -1,9 +1,11 @@
 import PropTypes from 'prop-types';
 import Profile from './Profile';
+import s from './Profile.module.css';
+console.log(s);
 
 export default function ProfileList({ items }) {
   return (
-    <ul>
+    <ul className={`${s.section}`}>
       {items.map(item => (
         <li key={item.name}>
           <Profile
