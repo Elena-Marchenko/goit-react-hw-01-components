@@ -8,12 +8,6 @@
   flex-direction: column;
 }
 
-.table {
-  border-collapse: collapse;
-
-  width: 100%;
-}
-
 th {
   text-align: center;
   color: rgb(90, 89, 89);
